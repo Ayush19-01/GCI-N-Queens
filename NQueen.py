@@ -24,7 +24,7 @@ class NQueens:
         l.append(line)
         man.append(l)
         x+=1
-        if x==20:
+        if x==80:
             y=random.choice(man)
             print("Possible Solution : \n")
             for i in y:
