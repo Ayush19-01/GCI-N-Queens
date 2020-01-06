@@ -37,8 +37,7 @@ class NQueens:
         if target_row == self.size:
             self.printboard(pos)
         else:
-            for column in range(self.size):
-                # Reject all invalid pos
+            for column in range(self.size): 
                 if self.checkq(pos, target_row, column):
                     pos[target_row] = column
                     self.enterq(pos, target_row + 1)
