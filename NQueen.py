@@ -1,8 +1,10 @@
 #Made for the sole purpose of GCI 2019
+import random
 x=0
 man=[]
-import random
+
 class NQueens:
+    
     def __init__(self, size):
         self.size = size
         self.solve()
