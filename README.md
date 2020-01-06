@@ -10,8 +10,8 @@ _Here is a 8 Queens Solution as an example:_
 
 ![alt text](https://github.com/Ayush19-01/GCI-N-Queens/blob/master/img1.png)
 
-In this task the given N was 20, the concept of backtracking and a genetic algorithm is used here. For every queen placed, the
-program checks if the previously placed queen causes no harm to the current one which is reffered as backtracking.
+_In this task the given N was 20, the concept of backtracking and a genetic algorithm is used here. For every queen placed, the
+program checks if the previously placed queen causes no harm to the current one which is reffered as backtracking._
 
 ## User Defined Functions and their purpose
 ### 1) printboard():
